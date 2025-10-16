@@ -60,10 +60,37 @@ export default function EducationPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-indigo-950 dark:to-purple-950">
       {/* Header */}
-      
+      <header className="border-b-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 shadow-md sticky top-0 z-10">
+        <div className="container mx-auto px-4 py-5">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-3">
+              <span className="text-3xl">🔐</span>
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                Crypto Responsible
+              </h1>
+            </div>
+            <nav className="flex gap-3">
+              <Button
+                variant="ghost"
+                size="lg"
+                onClick={() => window.location.href = '/personality-quiz'}
+              >
+                Investiční osobnost
+              </Button>
+              <Button
+                variant="ghost"
+                size="lg"
+                onClick={() => window.location.href = '/crypto-quiz'}
+              >
+                Krypto kvíz
+              </Button>
+            </nav>
+          </div>
+        </div>
+      </header>
 
       {/* Hero Section */}
-      <section className="py-16 px-8 mt-8">
+      <section className="py-16 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
