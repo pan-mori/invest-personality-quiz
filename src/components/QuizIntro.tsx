@@ -130,6 +130,27 @@ export default function QuizIntro({ onStart }: QuizIntroProps) {
                   Začít kvíz 🚀
                 </button>
               </motion.div>
+
+              {/* Additional Links */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.5, duration: 0.6 }}
+                className="mt-6 flex flex-col sm:flex-row gap-4 justify-center"
+              >
+                <a
+                  href="/crypto-quiz"
+                  className="text-sm text-slate-600 hover:text-indigo-600 font-medium underline"
+                >
+                  Krypto zodpovědnost kvíz
+                </a>
+                <a
+                  href="/"
+                  className="text-sm text-slate-600 hover:text-indigo-600 font-medium underline"
+                >
+                  Vzdělávání pro investory
+                </a>
+              </motion.div>
             </div>
           </div>
         </motion.div>

@@ -4,12 +4,27 @@ Objevte svou investiční personalitu a behaviorální předsudky pomocí vědec
 
 ## 🚀 Funkce
 
+### Hlavní kvíz investiční personality
 -   **10 vědecky podložených otázek** založených na Big5 personality frameworku
 -   **5 typů investičních biasů**: Stádový, Konzervativní, Emotivní, Sebevědomý, Spekulativní
 -   **Detailní analýza** s personalizovanými doporučeními
+
+### Krypto zodpovědnost kvíz
+-   **7 otázek** zaměřených na zodpovědné investování do kryptoměn
+-   **Okamžitá zpětná vazba** po každé odpovědi s vysvětlením
+-   **Identifikace cognitive biases** (FOMO, averze ke ztrátě, stádové chování, atd.)
+-   **Praktická doporučení** pro bezpečné investování
+
+### Vzdělávací stránka
+-   **9 nejčastějších chyb** při investování do kryptoměn
+-   Inspirováno www.cryptoresponsible.com
+-   Důraz na zodpovědné investování a řízení rizik
+
+### Technické vlastnosti
 -   **Moderní animované UI** s Framer Motion
 -   **Responzivní design** pro desktop i mobil
 -   **České lokalizace** s odbornou terminologií
+-   **React Router** pro navigaci mezi stránkami
 
 ## 🧠 Investiční typy
 
@@ -38,6 +53,12 @@ Objevte svou investiční personalitu a behaviorální předsudky pomocí vědec
 -   Hledá vysoké výnosy, podceňuje rizika
 -   Riziko: Vysoká volatilita, možné ztráty
 
+## 📱 Stránky aplikace
+
+-   **/** - Vzdělávání pro investory (domovská stránka)
+-   **/personality-quiz** - Hlavní kvíz investiční personality
+-   **/crypto-quiz** - Krypto zodpovědnost kvíz
+
 ## 🚀 Spuštění
 
 ```bash
@@ -50,3 +71,25 @@ npm run dev
 # Build pro produkci
 npm run build
 ```
+
+## 🎯 Vzdělávací obsah
+
+### Krypto kvíz pokrývá:
+1. Motivace pro investování do krypta
+2. Alokace portfolia a řízení rizika
+3. Bezpečnost a uchovávání kryptoměn
+4. Psychologie tradingu a emoční kontrola
+5. Averze ke ztrátě a finanční zdraví
+
+### Vzdělávací stránka obsahuje:
+- Špatné řízení rizik
+- Krátkodobé myšlení vs. dlouhodobá strategie
+- Bezpečnostní best practices
+- Důležitost vzdělávání a znalostí
+- Psychologické pasti (FOMO, stádové chování, atd.)
+
+## 🔗 Inspirace
+
+- [IFEC Investment Personality Quiz](https://www.ifec.org.hk/)
+- [Crypto Responsible](https://www.cryptoresponsible.com/)
+- Bank for International Settlements (BIS) research on retail crypto investors
