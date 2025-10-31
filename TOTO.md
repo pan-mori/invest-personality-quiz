@@ -77,3 +77,15 @@ c) Mám výčitky, pocit selhání, hněv
 
 
 
+druhé TODO  
+
+V české verzi dotazníku bych vyměnil barvu tlačítka další otázka na modrou
+
+Napsal bych Gratulujeme na konci pouze pokud mám více něz 70%
+ta procenta 14-29% vpravo nahoře bych tam nedával, pokud to lze
+Zvětšil bych ochlup text tech možností
+Ty biasy bych tam ted též nedával - například víc než 1 hod krypto obchodování ještě nebude asi bias: trading addiction (at si nenabehneme)
+Udělal bych pls 2. verzi té dotazníkové appky i pro AJ (překlad dole)
+Upravil bych pozadí té anglické verze aby to odpovídalo pozadí toho webu #1419
+1b a všude text #ead1dc (pouze nadpis otázky a tlačitko next question bude #a64d79)
+Na konci toho dotazníky bych místo odkazu Zpet na domovskou stránku dal - odkaz - Pochopte nejčastější chyby v kryptu a co za nimi stojí a odkaz

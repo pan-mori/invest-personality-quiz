@@ -43,30 +43,35 @@ export default function CryptoQuiz() {
 
   if (isComplete) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-indigo-950 dark:to-purple-950 flex items-center justify-center p-4">
+      <div className="min-h-screen flex items-center justify-center p-4" style={{ background: '#ffffff' }}>
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           className="w-full max-w-2xl"
         >
-          <Card className="p-8 text-center backdrop-blur-sm bg-white/80 dark:bg-gray-800/80">
+          <Card className="p-8 text-center backdrop-blur-sm bg-white/95 dark:bg-gray-800/95 shadow-xl border border-gray-200">
             <div className="text-6xl mb-4">🎉</div>
-            <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-white">
-              Gratulujeme!
-            </h2>
-            <p className="text-xl mb-6 text-gray-600 dark:text-gray-300">
+            {Math.round((score / cryptoQuestions.length) * 100) > 70 && (
+              <h2 className="text-3xl font-bold mb-4" style={{ color: '#a64d79' }}>
+                Gratulujeme!
+              </h2>
+            )}
+            <p className="text-xl mb-6 font-semibold" style={{ color: '#1f2937' }}>
               Dokončil jsi krypto kvíz s úspěšností{' '}
-              <span className="font-bold text-indigo-600 dark:text-indigo-400">
+              <span className="font-bold text-2xl" style={{ color: '#a64d79' }}>
                 {Math.round((score / cryptoQuestions.length) * 100)}%
               </span>
             </p>
-            <p className="text-lg mb-8 text-gray-700 dark:text-gray-300">
+            <p className="text-lg mb-8 font-semibold" style={{ color: '#1f2937' }}>
               Skóre: {score} z {cryptoQuestions.length} správně
             </p>
             <div className="space-y-4">
               <Button
                 onClick={handleRestart}
-                className="w-full relative overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-600 hover:from-indigo-600 hover:via-purple-600 hover:to-indigo-700 text-white !text-white py-7 text-lg font-bold shadow-lg hover:shadow-2xl transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 rounded-xl before:absolute before:inset-0 before:bg-gradient-to-r before:from-white/0 before:via-white/20 before:to-white/0 before:translate-x-[-200%] hover:before:translate-x-[200%] before:transition-transform before:duration-700 before:z-0"
+                className="w-full relative overflow-hidden text-white !text-white py-7 text-lg font-bold shadow-lg hover:shadow-2xl transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 rounded-xl before:absolute before:inset-0 before:bg-gradient-to-r before:from-white/0 before:via-white/20 before:to-white/0 before:translate-x-[-200%] hover:before:translate-x-[200%] before:transition-transform before:duration-700 before:z-0"
+                style={{ background: 'linear-gradient(90deg, #3b82f6 0%, #2563eb 100%)', backgroundSize: '200% 100%' }}
+                onMouseEnter={(e) => e.currentTarget.style.backgroundPosition = '100% 0'}
+                onMouseLeave={(e) => e.currentTarget.style.backgroundPosition = '0% 0'}
               >
                 <span className="relative z-10">Zkusit znovu</span>
               </Button>
@@ -89,13 +94,12 @@ export default function CryptoQuiz() {
   )
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-indigo-950 dark:to-purple-950 flex items-center justify-center p-4">
+    <div className="min-h-screen flex items-center justify-center p-4" style={{ background: '#ffffff' }}>
       <div className="w-full max-w-3xl">
         {/* Progress Bar */}
         <div className="mb-6">
           <div className="flex justify-between text-sm text-gray-600 dark:text-gray-400 mb-2">
             <span>Otázka {currentQuestionIndex + 1} z {cryptoQuestions.length}</span>
-            <span>{Math.round(progress)}%</span>
           </div>
           <Progress value={progress} className="h-2" />
         </div>
@@ -110,7 +114,7 @@ export default function CryptoQuiz() {
           >
             <Card className="p-8 backdrop-blur-sm bg-white/80 dark:bg-gray-800/80">
               {/* Question */}
-              <h2 className="text-2xl font-bold mb-8 text-gray-800 dark:text-white">
+              <h2 className="text-2xl font-bold mb-8" style={{ color: '#a64d79' }}>
                 {currentQuestion.text}
               </h2>
 
@@ -128,7 +132,7 @@ export default function CryptoQuiz() {
                       disabled={showFeedback}
                       whileHover={!showFeedback ? { scale: 1.02 } : {}}
                       whileTap={!showFeedback ? { scale: 0.98 } : {}}
-                      className={`w-full p-4 rounded-lg text-left transition-all ${
+                      className={`w-full p-6 rounded-lg text-left transition-all ${
                         showCorrect
                           ? 'bg-green-100 dark:bg-green-900/30 border-2 border-green-500'
                           : showIncorrect
@@ -139,10 +143,10 @@ export default function CryptoQuiz() {
                       } ${showFeedback ? 'cursor-not-allowed' : 'cursor-pointer'}`}
                     >
                       <div className="flex items-start gap-3">
-                        <span className="font-semibold text-gray-700 dark:text-gray-300">
+                        <span className="font-semibold text-lg text-gray-700 dark:text-gray-300">
                           {option.id})
                         </span>
-                        <span className="flex-1 text-gray-800 dark:text-gray-200">
+                        <span className="flex-1 text-lg text-gray-800 dark:text-gray-200">
                           {option.text}
                         </span>
                         {showCorrect && (
@@ -171,11 +175,6 @@ export default function CryptoQuiz() {
                         ? 'bg-green-50 dark:bg-green-900/20 border-green-300 dark:border-green-700'
                         : 'bg-orange-50 dark:bg-orange-900/20 border-orange-300 dark:border-orange-700'
                     }`}>
-                      {selectedOptionData.biasType && (
-                        <div className="mb-3 font-semibold text-orange-800 dark:text-orange-300">
-                          {selectedOptionData.biasType}
-                        </div>
-                      )}
                       <p className="text-gray-800 dark:text-gray-200 whitespace-pre-line">
                         {selectedOptionData.feedback}
                       </p>
@@ -183,7 +182,10 @@ export default function CryptoQuiz() {
 
                     <Button
                       onClick={handleNext}
-                      className="w-full mt-6 relative overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-600 hover:from-indigo-600 hover:via-purple-600 hover:to-indigo-700 text-white !text-white py-7 text-lg font-bold shadow-lg hover:shadow-2xl transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 rounded-xl before:absolute before:inset-0 before:bg-gradient-to-r before:from-white/0 before:via-white/20 before:to-white/0 before:translate-x-[-200%] hover:before:translate-x-[200%] before:transition-transform before:duration-700 before:z-0"
+                      className="w-full mt-6 relative overflow-hidden text-white !text-white py-7 text-lg font-bold shadow-lg hover:shadow-2xl transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 rounded-xl before:absolute before:inset-0 before:bg-gradient-to-r before:from-white/0 before:via-white/20 before:to-white/0 before:translate-x-[-200%] hover:before:translate-x-[200%] before:transition-transform before:duration-700 before:z-0"
+                      style={{ background: 'linear-gradient(90deg, #3b82f6 0%, #2563eb 100%)', backgroundSize: '200% 100%' }}
+                      onMouseEnter={(e) => e.currentTarget.style.backgroundPosition = '100% 0'}
+                      onMouseLeave={(e) => e.currentTarget.style.backgroundPosition = '0% 0'}
                     >
                       <span className="relative z-10">
                         {currentQuestionIndex < cryptoQuestions.length - 1
