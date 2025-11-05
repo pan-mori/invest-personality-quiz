@@ -1,20 +1,22 @@
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 
 interface QuizIntroProps {
   onStart: () => void
 }
 
 export default function QuizIntro({ onStart }: QuizIntroProps) {
+  const { t } = useTranslation()
   return (
     <div className="min-h-screen flex items-center justify-center py-8">
-      <div className="container max-w-4xl mx-auto px-4">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <div className="card max-w-3xl mx-auto">
-            <div className="p-8 md:p-12 text-center">
+        <div className="container max-w-4xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className="card max-w-3xl mx-auto">
+              <div className="p-8 md:p-12 text-center">
               <motion.div
                 initial={{ scale: 0, rotate: -180 }}
                 animate={{ scale: 1, rotate: 0 }}
@@ -33,11 +35,11 @@ export default function QuizIntro({ onStart }: QuizIntroProps) {
                 className="card bg-white/95 backdrop-blur-sm p-8 mb-6 shadow-xl"
               >
                 <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
-                  Investiční Personalita
+                  {t('quiz.mainQuiz.intro.title')}
                 </h1>
                 <div className="w-20 h-1 mx-auto mb-6 rounded-full" style={{ background: '#f7931a' }}></div>
                 <p className="text-xl text-slate-700 leading-relaxed font-medium">
-                  Objevte svou investiční personalitu pomocí vědecky podloženého kvízu
+                  {t('quiz.mainQuiz.intro.description')}
                 </p>
               </motion.div>
 
@@ -51,10 +53,9 @@ export default function QuizIntro({ onStart }: QuizIntroProps) {
                 <div className="flex items-start">
                   <div className="text-3xl mr-4 mt-1">🧠</div>
                   <div>
-                    <h3 className="text-lg font-bold text-slate-900 mb-2">Proč je to důležité?</h3>
+                    <h3 className="text-lg font-bold text-slate-900 mb-2">{t('quiz.mainQuiz.intro.why')}</h3>
                     <p className="text-base text-slate-600 leading-relaxed">
-                      Porozumění svému investičnímu stylu je klíčem k úspěšnému dlouhodobému investování. 
-                      Tento kvíz vám pomůže identifikovat vaše behaviorální vzorce.
+                      {t('quiz.mainQuiz.intro.whyDesc')}
                     </p>
                   </div>
                 </div>
@@ -69,23 +70,23 @@ export default function QuizIntro({ onStart }: QuizIntroProps) {
               >
                 <div className="card bg-gradient-to-br from-indigo-50 to-purple-50 p-6 shadow-lg">
                   <div className="text-2xl mb-3">🎯</div>
-                  <h4 className="font-bold text-slate-900 mb-2">Váš investiční typ</h4>
-                  <p className="text-sm text-slate-600">Identifikujte svůj dominantní investiční styl</p>
+                  <h4 className="font-bold text-slate-900 mb-2">{t('quiz.mainQuiz.intro.benefit1Title')}</h4>
+                  <p className="text-sm text-slate-600">{t('quiz.mainQuiz.intro.benefit1Desc')}</p>
                 </div>
                 <div className="card bg-gradient-to-br from-purple-50 to-pink-50 p-6 shadow-lg">
                   <div className="text-2xl mb-3">⚖️</div>
-                  <h4 className="font-bold text-slate-900 mb-2">Behaviorální předsudky</h4>
-                  <p className="text-sm text-slate-600">Odhalte skryté vzorce v rozhodování</p>
+                  <h4 className="font-bold text-slate-900 mb-2">{t('quiz.mainQuiz.intro.benefit2Title')}</h4>
+                  <p className="text-sm text-slate-600">{t('quiz.mainQuiz.intro.benefit2Desc')}</p>
                 </div>
                 <div className="card bg-gradient-to-br from-pink-50 to-red-50 p-6 shadow-lg">
                   <div className="text-2xl mb-3">💡</div>
-                  <h4 className="font-bold text-slate-900 mb-2">Personalizovaná doporučení</h4>
-                  <p className="text-sm text-slate-600">Získejte rady šité na míru vašemu stylu</p>
+                  <h4 className="font-bold text-slate-900 mb-2">{t('quiz.mainQuiz.intro.benefit3Title')}</h4>
+                  <p className="text-sm text-slate-600">{t('quiz.mainQuiz.intro.benefit3Desc')}</p>
                 </div>
                 <div className="card bg-gradient-to-br from-green-50 to-blue-50 p-6 shadow-lg">
                   <div className="text-2xl mb-3">📈</div>
-                  <h4 className="font-bold text-slate-900 mb-2">Tipy pro zlepšení</h4>
-                  <p className="text-sm text-slate-600">Praktické návody k lepším výsledkům</p>
+                  <h4 className="font-bold text-slate-900 mb-2">{t('quiz.mainQuiz.intro.benefit4Title')}</h4>
+                  <p className="text-sm text-slate-600">{t('quiz.mainQuiz.intro.benefit4Desc')}</p>
                 </div>
               </motion.div>
 
@@ -99,18 +100,18 @@ export default function QuizIntro({ onStart }: QuizIntroProps) {
                 <div className="flex items-center justify-center gap-8">
                   <div className="text-center">
                     <div className="text-2xl mb-2">⏱️</div>
-                    <div className="text-sm font-semibold text-slate-900">3-5 minut</div>
-                    <div className="text-xs text-slate-600">Doba dokončení</div>
+                    <div className="text-sm font-semibold text-slate-900">{t('quiz.mainQuiz.intro.duration')}</div>
+                    <div className="text-xs text-slate-600">{t('quiz.mainQuiz.intro.durationDesc')}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl mb-2">❓</div>
-                    <div className="text-sm font-semibold text-slate-900">10 otázek</div>
-                    <div className="text-xs text-slate-600">Vědecky ověřených</div>
+                    <div className="text-sm font-semibold text-slate-900">{t('quiz.mainQuiz.intro.questions')}</div>
+                    <div className="text-xs text-slate-600">{t('quiz.mainQuiz.intro.questionsDesc')}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl mb-2">🔒</div>
-                    <div className="text-sm font-semibold text-slate-900">100% anonymní</div>
-                    <div className="text-xs text-slate-600">Žádná registrace</div>
+                    <div className="text-sm font-semibold text-slate-900">{t('quiz.mainQuiz.intro.anonymous')}</div>
+                    <div className="text-xs text-slate-600">{t('quiz.mainQuiz.intro.anonymousDesc')}</div>
                   </div>
                 </div>
               </motion.div>
@@ -127,7 +128,7 @@ export default function QuizIntro({ onStart }: QuizIntroProps) {
                   onClick={onStart}
                   className="btn btn-primary btn-xl"
                 >
-                  Začít kvíz 🚀
+                  {t('quiz.mainQuiz.intro.startButton')}
                 </button>
               </motion.div>
 
@@ -142,19 +143,19 @@ export default function QuizIntro({ onStart }: QuizIntroProps) {
                   href="/crypto-quiz"
                   className="text-sm text-slate-600 hover:text-indigo-600 font-medium underline"
                 >
-                  Krypto zodpovědnost kvíz
+                  {t('quiz.mainQuiz.intro.cryptoQuizLink')}
                 </a>
                 <a
                   href="/"
                   className="text-sm text-slate-600 hover:text-indigo-600 font-medium underline"
                 >
-                  Vzdělávání pro investory
+                  {t('quiz.mainQuiz.intro.educationLink')}
                 </a>
               </motion.div>
+              </div>
             </div>
-          </div>
-        </motion.div>
-      </div>
+          </motion.div>
+        </div>
     </div>
   )
 }

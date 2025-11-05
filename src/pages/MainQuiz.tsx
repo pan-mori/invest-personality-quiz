@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { QuizState } from '../types/quiz'
-import { questions } from '../data/questions'
 import { calculateResult } from '../utils/scoring'
+import { useQuizQuestions } from '../hooks/useQuizQuestions'
 import QuizIntro from '../components/QuizIntro'
 import QuizQuestion from '../components/QuizQuestion'
 import QuizResult from '../components/QuizResult'
@@ -9,6 +9,7 @@ import QuizResult from '../components/QuizResult'
 type AppState = 'intro' | 'quiz' | 'result'
 
 export default function MainQuiz() {
+  const questions = useQuizQuestions()
   const [appState, setAppState] = useState<AppState>('intro')
   const [quizState, setQuizState] = useState<QuizState>({
     currentQuestion: 1,

@@ -1,0 +1,271 @@
+{
+  "common": {
+    "investmentPersonality": "Investment Personality",
+    "cryptoQuiz": "Crypto Quiz",
+    "tryQuiz": "Try Crypto Quiz",
+    "discoverType": "Discover Your Investment Type"
+  },
+  "home": {
+    "title": "Most Common Cryptocurrency Investment Mistakes",
+    "subtitle": "Being crypto responsible means approaching cryptocurrencies with awareness, discipline, and education - not emotions or impulses.",
+    "mistakes": [
+      {
+        "title": "Poor Risk Management",
+        "description": "Many investors risk more than they can afford to lose. They ignore proper portfolio allocation and fail to diversify. This can lead to devastating losses during market downturns."
+      },
+      {
+        "title": "Short-Term Thinking",
+        "description": "Focusing on quick gains instead of long-term wealth building. Investors often succumb to short-term market fluctuations and make hasty decisions that harm their long-term goals."
+      },
+      {
+        "title": "Neglecting Security",
+        "description": "Not using hardware wallets, weak passwords, sharing sensitive information. Security should be priority number one - 'not your keys, not your coins'."
+      },
+      {
+        "title": "Lack of Basic Knowledge",
+        "description": "Investing in products you don't understand. It's important to grasp how cryptocurrencies, blockchain work and the risks associated with individual projects."
+      },
+      {
+        "title": "Not Learning from Mistakes",
+        "description": "Repeating the same errors. Successful investors analyze their failures and adjust their strategy. Every mistake is an opportunity to learn something new."
+      },
+      {
+        "title": "Absence of Strategy",
+        "description": "Investing without a clear plan, goals, or exit strategy. Without strategy, it's easy to fall prey to emotions and make irrational decisions."
+      },
+      {
+        "title": "Blindly Following Influencers",
+        "description": "Trusting influencer recommendations without your own research. Remember - no one knows the future and everyone has their own interests."
+      },
+      {
+        "title": "Crypto Dependency",
+        "description": "Compulsively checking charts, emotional trading, using crypto as an escape from stress. These are signs of addiction that almost always leads to losses."
+      },
+      {
+        "title": "Letting Biases Control You",
+        "description": "FOMO, herding behavior, loss aversion, overconfidence - cognitive biases influence our decision-making in ways we often don't realize. Understanding these biases is key to better investing."
+      }
+    ],
+    "whyLoseMoney": "Why Do Most Investors Lose Money?",
+    "bisBankInfo": "According to a Bank for International Settlements (BIS) study, most retail cryptocurrency investors lose money. Main reasons:",
+    "emotionalDecision": "Emotional Decision-Making",
+    "emotionalDecisionDesc": "Buying at peak (FOMO) and selling at drops (panic)",
+    "lacStrategy": "Lack of Strategy",
+    "lacStrategyDesc": "Without a clear plan it's hard to make rational decisions",
+    "underestimateRisk": "Underestimating Risk",
+    "underestimateRiskDesc": "Investing more than you can afford to lose",
+    "cognitiveBiases": "Cognitive Biases",
+    "cognitiveBiasesDesc": "Herding behavior, loss aversion, overconfidence",
+    "badTiming": "Bad Timing",
+    "badTimingDesc": "Attempting to time the market instead of a long-term approach",
+    "understanding": "Understanding these pitfalls and working on your own investment habits is the first step toward responsible investing.",
+    "startJourney": "Start Your Journey to Responsible Investing",
+    "discoveryBiases": "Discover what biases influence your investment decisions and learn to control them.",
+    "footer": "Non-profit project dedicated to educating crypto investors",
+    "riskDisclaimer": "Cryptocurrency investing carries high risk. Never invest more than you can afford to lose."
+  },
+  "quiz": {
+    "mainQuiz": {
+      "intro": {
+        "title": "Investment Personality",
+        "description": "Discover your investment personality through a scientifically-backed quiz",
+        "why": "Why does it matter?",
+        "whyDesc": "Understanding your investment style is key to successful long-term investing. This quiz helps you identify your behavioral patterns.",
+        "benefit1Title": "Your Investment Type",
+        "benefit1Desc": "Identify your dominant investment style",
+        "benefit2Title": "Behavioral Biases",
+        "benefit2Desc": "Uncover hidden patterns in decision-making",
+        "benefit3Title": "Personalized Recommendations",
+        "benefit3Desc": "Get advice tailored to your style",
+        "benefit4Title": "Improvement Tips",
+        "benefit4Desc": "Practical guides for better results",
+        "duration": "3-5 minutes",
+        "durationDesc": "Time to complete",
+        "questions": "10 questions",
+        "questionsDesc": "Scientifically verified",
+        "anonymous": "100% anonymous",
+        "anonymousDesc": "No registration needed",
+        "startButton": "Start Quiz 🚀",
+        "cryptoQuizLink": "Crypto Responsibility Quiz",
+        "educationLink": "Education for Investors"
+      },
+      "title": "Investment Personality Quiz",
+      "description": "Discover what investment biases influence you",
+      "questions": [
+        {
+          "text": "When deciding on an investment, you typically:",
+          "options": ["Consult with friends and watch what successful investors do", "Carefully analyze all available information yourself", "Only choose proven and safe investments", "Look for investments with the highest potential returns"]
+        },
+        {
+          "text": "When markets drop significantly, your first reaction is to:",
+          "options": ["Sell everything before losing more money", "See what other investors are doing", "Do nothing and hold your positions", "Buy more at lower prices"]
+        },
+        {
+          "text": "How often do you check your investments' performance?",
+          "options": ["Several times daily", "Once a week", "Once a month", "Once a quarter or less"]
+        },
+        {
+          "text": "When choosing an investment, what matters most to you:",
+          "options": ["Safety and certainty of returns", "Recommendations from trusted sources", "High growth potential", "Your own analysis and conviction"]
+        },
+        {
+          "text": "When a new investment trend appears (e.g., cryptocurrencies, ESG funds), you:",
+          "options": ["Jump in immediately to not miss the opportunity", "Wait and watch how others perform", "Research it thoroughly then decide", "Avoid new trends"]
+        },
+        {
+          "text": "Your portfolio is typically:",
+          "options": ["Highly diversified across different asset classes", "Focused on a few selected investments you trust", "Similar to successful investors' portfolios", "Mostly composed of growth stocks and speculative investments"]
+        },
+        {
+          "text": "When reading financial news:",
+          "options": ["Trust experts' analyses and follow their recommendations", "Often question the information and rely on your own judgment", "Look primarily for information about safe investments", "Focus on tips about fast-growing stocks"]
+        },
+        {
+          "text": "What influences your investment decisions the most:",
+          "options": ["Fear of losing money", "Desire for high returns", "Opinions of people you respect", "Trust in your own analysis"]
+        },
+        {
+          "text": "When your investment drops in value weeks after buying:",
+          "options": ["Immediately sell to prevent more losses", "Consult with other investors what they would do", "Hold because you're convinced of your analysis", "Buy more because you see an opportunity"]
+        },
+        {
+          "text": "Your long-term investment goal is to:",
+          "options": ["Preserve purchasing power with minimal risk", "Achieve above-average returns", "Invest similarly to successful investors", "Build a stable retirement portfolio"]
+        }
+      ]
+    },
+    "cryptoQuiz": {
+      "title": "Crypto Responsibility Quiz",
+      "description": "Discover how responsibly you invest in cryptocurrencies",
+      "questionsHeader": "Question",
+      "congratulations": "Congratulations!",
+      "completedText": "You completed the crypto quiz with a score of",
+      "scoreText": "Score",
+      "retryButton": "Try Again",
+      "homeButton": "Back to Home",
+      "nextButton": "Next Question →",
+      "finishButton": "Finish Quiz",
+      "questions": [
+        {
+          "text": "1.1. Why do you most often invest in crypto?",
+          "options": [
+            {
+              "text": "I believe in the long-term technology",
+              "feedback": "✅ Excellent! Stick to a buy & hold strategy - ideally with Bitcoin only. Buy only what you can afford to hold for years without needing to sell. Diversify and regularly invest smaller amounts."
+            },
+            {
+              "text": "I want to make quick money",
+              "feedback": "⚠️ Cryptocurrencies can offer short-term gains, but long-term it's better to view them as a marathon, not a sprint. If speculation appeals to you, allocate only a small part of your portfolio (e.g., 5–10%) and invest the rest long-term. This reduces the risk of major losses."
+            },
+            {
+              "text": "I don't want to miss out (FOMO)",
+              "feedback": "❌ Biggest trap! Instead of impulse buying, set up a regular investment plan (e.g., monthly purchase of a fixed amount – so-called DCA). This will help you avoid stress from timing and protect you from excessive buying at peaks."
+            }
+          ]
+        },
+        {
+          "text": "1.2. What percentage of your savings are in crypto?",
+          "options": [
+            {
+              "text": "<10 %",
+              "feedback": "✅ This is generally considered a reasonable and safer allocation. Cryptocurrencies are highly risky assets, so holding them as a small part of your portfolio makes sense. The risk of major losses won't threaten your financial stability."
+            },
+            {
+              "text": "10–50 %",
+              "feedback": "⚠️ That's significantly higher risk. If the market drops 70–80%, it could substantially affect your savings. It's important to have a clear strategy (e.g., long-term horizon, diversification beyond crypto, regular purchases) and expect your portfolio to fluctuate significantly."
+            },
+            {
+              "text": ">50 %",
+              "feedback": "❌ Extremely risky strategy, which BIS and most experts consider reckless. It's only suitable for people who can afford to potentially lose a significant portion of their wealth. If emotions (FOMO, greed) are driving this, it's a warning sign."
+            }
+          ]
+        },
+        {
+          "text": "1.3. Where do you store your crypto?",
+          "options": [
+            {
+              "text": "Hardware wallet / cold storage",
+              "feedback": "✅ The safest option for long-term holding. You own the private keys, nobody else. The risk of exchange hacking is zero, but you need to carefully protect your seed phrase (never store it online)."
+            },
+            {
+              "text": "On an exchange with 2FA",
+              "feedback": "⚠️ Acceptable option for short-term trading. Two-factor authentication significantly increases security, but it's still true that the exchange holds the keys, not you ('not your keys, not your coins'). If the exchange fails or gets hacked, you could lose your funds.\n\n👉 Recommendation: 'Exchange for trading, wallet for holding'."
+            },
+            {
+              "text": "On an exchange without security",
+              "feedback": "❌ Worst option! It opens doors to hackers and scammers; account loss is just a matter of time. Anyone storing a larger amount this way is unnecessarily exposing themselves to enormous risk.\n\n👉 Recommendation: 'Exchange for trading, wallet for holding'."
+            }
+          ]
+        },
+        {
+          "text": "1.4. How much time do you spend daily watching charts?",
+          "options": [
+            {
+              "text": "<5 minutes",
+              "feedback": "✅ Healthy approach. You monitor the market only casually, without getting caught up in daily volatility. Suitable for long-term investors."
+            },
+            {
+              "text": "10–60 minutes",
+              "feedback": "⚠️ Medium risk. You already pay considerable attention to crypto, so short-term fluctuations can influence you and pull you toward active trading. It's important to have a firm plan to avoid being drawn into impulsive buys or sells."
+            },
+            {
+              "text": ">1 hour",
+              "feedback": "❌ Warning sign! Most long-term investors unnecessarily waste time and energy – and results are usually worse than a calm approach with a clear strategy. If you're into trading, you still need days when you ignore the markets entirely and set up healthy psychological boundaries."
+            }
+          ]
+        },
+        {
+          "text": "1.5. When stressed, do you resort to crypto (trading, checking portfolio)?",
+          "options": [
+            {
+              "text": "No, I handle it differently",
+              "feedback": "✅ Ideal approach. You don't convert stress into impulsive buys/sells. A healthy strategy reduces the risk of emotion-driven losses."
+            },
+            {
+              "text": "Sometimes",
+              "feedback": "⚠️ Medium risk. Occasional impulsive behavior can reduce returns, but if you're aware of the situation and have a plan, you can minimize the risk."
+            },
+            {
+              "text": "Yes, often",
+              "feedback": "❌ Warning sign! Using crypto as a 'stress relief' leads to high loss risk and psychological burnout. BIS and studies of retail investors show that emotion-driven investments cause most losses."
+            }
+          ]
+        },
+        {
+          "text": "1.6. Does market sentiment affect your personal mood?",
+          "options": [
+            {
+              "text": "No, my mood is stable",
+              "feedback": "✅ Excellent foundation for long-term investing. You have your emotions under control, you don't sell or buy impulsively. You can maintain distance between your life and the market."
+            },
+            {
+              "text": "Somewhat – good day when crypto rises",
+              "feedback": "⚠️ Common reaction, but there's already a risk that joy/negative mood will affect your decisions. It's important to consciously remind yourself that volatility is normal and shouldn't control your life."
+            },
+            {
+              "text": "A lot – my emotions mirror the market",
+              "feedback": "❌ Dangerous pattern! If the market emotionally controls you, there's high risk of FOMO and panic selling. That's exactly why, according to BIS, most investors lose money – they get swept along by crowd sentiment instead of following a plan."
+            }
+          ]
+        },
+        {
+          "text": "1.7. How do you feel when you're down on your investments?",
+          "options": [
+            {
+              "text": "I see it as part of investing",
+              "feedback": "✅ Healthiest approach. You know losses are natural and factored into your strategy. Less emotional reaction = lower risk of impulsive decisions."
+            },
+            {
+              "text": "I think about it a lot but eventually let it go",
+              "feedback": "⚠️ Medium risk. Emotions play a role, but you eventually come to terms with them. It's good to have a plan in place so you don't feel lost during downturns."
+            },
+            {
+              "text": "I feel guilty, like a failure, angry",
+              "feedback": "❌ Warning sign! If losses paralyze you, there's high risk of panic selling or 'chasing' losses with risky trades. That's exactly the path BIS identifies as why most retail investors lose money."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

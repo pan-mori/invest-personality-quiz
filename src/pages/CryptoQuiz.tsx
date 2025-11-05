@@ -1,11 +1,15 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { cryptoQuestions, CryptoOption } from '../data/cryptoQuestions'
+import { useTranslation } from 'react-i18next'
+import { useCryptoQuestions } from '../hooks/useCryptoQuestions'
+import { CryptoOption } from '../data/cryptoQuestions'
 import { Button } from '../components/ui/button'
 import { Card } from '../components/ui/card'
 import { Progress } from '../components/ui/progress'
 
 export default function CryptoQuiz() {
+  const { t } = useTranslation()
+  const cryptoQuestions = useCryptoQuestions()
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [selectedOption, setSelectedOption] = useState<string | null>(null)
   const [showFeedback, setShowFeedback] = useState(false)
@@ -53,17 +57,17 @@ export default function CryptoQuiz() {
             <div className="text-6xl mb-4">🎉</div>
             {Math.round((score / cryptoQuestions.length) * 100) > 70 && (
               <h2 className="text-3xl font-bold mb-4" style={{ color: '#a64d79' }}>
-                Gratulujeme!
+                {t('quiz.cryptoQuiz.congratulations')}
               </h2>
             )}
             <p className="text-xl mb-6 font-semibold" style={{ color: '#1f2937' }}>
-              Dokončil jsi krypto kvíz s úspěšností{' '}
+              {t('quiz.cryptoQuiz.completedText')}{' '}
               <span className="font-bold text-2xl" style={{ color: '#a64d79' }}>
                 {Math.round((score / cryptoQuestions.length) * 100)}%
               </span>
             </p>
             <p className="text-lg mb-8 font-semibold" style={{ color: '#1f2937' }}>
-              Skóre: {score} z {cryptoQuestions.length} správně
+              {t('quiz.cryptoQuiz.scoreText')}: {score} z {cryptoQuestions.length}
             </p>
             <div className="space-y-4">
               <Button
@@ -73,14 +77,14 @@ export default function CryptoQuiz() {
                 onMouseEnter={(e) => e.currentTarget.style.backgroundPosition = '100% 0'}
                 onMouseLeave={(e) => e.currentTarget.style.backgroundPosition = '0% 0'}
               >
-                <span className="relative z-10">Zkusit znovu</span>
+                <span className="relative z-10">{t('quiz.cryptoQuiz.retryButton')}</span>
               </Button>
               <Button
                 onClick={() => window.location.href = '/'}
                 variant="outline"
                 className="w-full py-7 text-lg rounded-xl"
               >
-                Zpět na domovskou stránku
+                {t('quiz.cryptoQuiz.homeButton')}
               </Button>
             </div>
           </Card>
@@ -99,7 +103,7 @@ export default function CryptoQuiz() {
         {/* Progress Bar */}
         <div className="mb-6">
           <div className="flex justify-between text-sm text-gray-600 dark:text-gray-400 mb-2">
-            <span>Otázka {currentQuestionIndex + 1} z {cryptoQuestions.length}</span>
+            <span>{t('quiz.cryptoQuiz.questionsHeader')} {currentQuestionIndex + 1} z {cryptoQuestions.length}</span>
           </div>
           <Progress value={progress} className="h-2" />
         </div>
@@ -189,8 +193,8 @@ export default function CryptoQuiz() {
                     >
                       <span className="relative z-10">
                         {currentQuestionIndex < cryptoQuestions.length - 1
-                          ? 'Další otázka →'
-                          : 'Dokončit kvíz'}
+                          ? t('quiz.cryptoQuiz.nextButton')
+                          : t('quiz.cryptoQuiz.finishButton')}
                       </span>
                     </Button>
                   </motion.div>

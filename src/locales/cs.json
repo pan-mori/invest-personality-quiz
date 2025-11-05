@@ -1,0 +1,271 @@
+{
+  "common": {
+    "investmentPersonality": "Investiční osobnost",
+    "cryptoQuiz": "Krypto kvíz",
+    "tryQuiz": "Vyzkoušej krypto kvíz",
+    "discoverType": "Zjisti svůj investiční typ"
+  },
+  "home": {
+    "title": "Nejčastější chyby při investování do kryptoměn",
+    "subtitle": "Být crypto responsible znamená přistupovat ke kryptoměnám s vědomím, disciplínou a vzděláním - ne emocemi nebo impulzy.",
+    "mistakes": [
+      {
+        "title": "Špatné řízení rizik",
+        "description": "Mnozí investoři riskují více, než si mohou dovolit ztratit. Nedodržují správnou alokaci portfolia a nevyužívají diverzifikaci. To může vést k devastujícím ztrátám při poklesu trhu."
+      },
+      {
+        "title": "Krátkodobé myšlení",
+        "description": "Zaměření na rychlé zisky místo dlouhodobého budování bohatství. Investoři často podléhají krátkodobým výkyvům trhu a činí ukvapená rozhodnutí, která škodí jejich dlouhodobým cílům."
+      },
+      {
+        "title": "Zanedbávání bezpečnosti",
+        "description": "Nepoužívání hardwarových peněženek, slabá hesla, sdílení citlivých informací. Bezpečnost by měla být prioritou číslo jedna - 'not your keys, not your coins'."
+      },
+      {
+        "title": "Nedostatek základních znalostí",
+        "description": "Investování do produktů, kterým nerozumíte. Je důležité pochopit, jak fungují kryptoměny, blockchain a rizika spojená s jednotlivými projekty."
+      },
+      {
+        "title": "Nepoučení se z chyb",
+        "description": "Opakování stejných chyb. Úspěšní investoři analyzují své neúspěchy a upravují svou strategii. Každá chyba je příležitost se naučit něco nového."
+      },
+      {
+        "title": "Absence strategie",
+        "description": "Investování bez jasného plánu, cílů nebo výstupní strategie. Bez strategie je snadné podlehnout emocím a činit iracionální rozhodnutí."
+      },
+      {
+        "title": "Slepé následování influencerů",
+        "description": "Důvěra v doporučení od influencerů bez vlastního výzkumu. Pamatujte - nikdo nezná budoucnost a každý má své vlastní zájmy."
+      },
+      {
+        "title": "Závislost na kryptu",
+        "description": "Kompulzivní sledování grafů, emocionální trading, používání krypta jako úniku od stresu. To jsou známky závislosti, která téměř vždy vede ke ztrátám."
+      },
+      {
+        "title": "Nechat se ovládat biasy",
+        "description": "FOMO, stádové chování, averze ke ztrátě, nadměrná sebedůvěra - kognitivní biasy ovlivňují naše rozhodování způsobem, kterého si často nejsme vědomi. Pochopení těchto biasů je klíčem k lepšímu investování."
+      }
+    ],
+    "whyLoseMoney": "Proč většina investorů prodělává?",
+    "bisBankInfo": "Podle studie Bank for International Settlements (BIS) většina retailových investorů v kryptoměnách ztrácí peníze. Hlavní důvody:",
+    "emotionalDecision": "Emocionální rozhodování",
+    "emotionalDecisionDesc": "Nákup na vrcholu (FOMO) a prodej při poklesu (panika)",
+    "lacStrategy": "Nedostatek strategie",
+    "lacStrategyDesc": "Bez jasného plánu je těžké činit racionální rozhodnutí",
+    "underestimateRisk": "Podcenění rizika",
+    "underestimateRiskDesc": "Investování více, než si mohou dovolit ztratit",
+    "cognitiveBiases": "Kognitivní biasy",
+    "cognitiveBiasesDesc": "Stádové chování, averze ke ztrátě, nadměrná sebedůvěra",
+    "badTiming": "Špatné načasování",
+    "badTimingDesc": "Pokus o timing trhu místo dlouhodobého přístupu",
+    "understanding": "Pochopení těchto pastí a práce na vlastních investičních návycích je první krok k zodpovědnému investování.",
+    "startJourney": "Začni svou cestu k zodpovědnému investování",
+    "discoveryBiases": "Zjisti, jaké biasy ovlivňují tvá investiční rozhodnutí a nauč se je kontrolovat.",
+    "footer": "Non-profit projekt zaměřený na vzdělávání krypto investorů",
+    "riskDisclaimer": "Investování v kryptoměnách nese vysoké riziko. Nikdy neinvestujte více, než si můžete dovolit ztratit."
+  },
+  "quiz": {
+    "mainQuiz": {
+      "intro": {
+        "title": "Investiční Personalita",
+        "description": "Objevte svou investiční personalitu pomocí vědecky podloženého kvízu",
+        "why": "Proč je to důležité?",
+        "whyDesc": "Porozumění svému investičnímu stylu je klíčem k úspěšnému dlouhodobému investování. Tento kvíz vám pomůže identifikovat vaše behaviorální vzorce.",
+        "benefit1Title": "Váš investiční typ",
+        "benefit1Desc": "Identifikujte svůj dominantní investiční styl",
+        "benefit2Title": "Behaviorální předsudky",
+        "benefit2Desc": "Odhalte skryté vzorce v rozhodování",
+        "benefit3Title": "Personalizovaná doporučení",
+        "benefit3Desc": "Získejte rady šité na míru vašemu stylu",
+        "benefit4Title": "Tipy pro zlepšení",
+        "benefit4Desc": "Praktické návody k lepším výsledkům",
+        "duration": "3-5 minut",
+        "durationDesc": "Doba dokončení",
+        "questions": "10 otázek",
+        "questionsDesc": "Vědecky ověřených",
+        "anonymous": "100% anonymní",
+        "anonymousDesc": "Žádná registrace",
+        "startButton": "Začít kvíz 🚀",
+        "cryptoQuizLink": "Krypto zodpovědnost kvíz",
+        "educationLink": "Vzdělávání pro investory"
+      },
+      "title": "Investiční Osobnost Quiz",
+      "description": "Zjistěte, jaké investiční biasy vás ovlivňují",
+      "questions": [
+        {
+          "text": "Když se rozhodujete o investici, obvykle:",
+          "options": ["Konzultujete s přáteli a sledujete, co dělají úspěšní investoři", "Pečlivě analyzujete všechny dostupné informace sami", "Vybíráte pouze prověřené a bezpečné investice", "Hledáte investice s nejvyšším potenciálním výnosem"]
+        },
+        {
+          "text": "Když se trhy výrazně propadnou, vaší první reakcí je:",
+          "options": ["Prodat vše, dokud neztratím více peněz", "Podívat se, co dělají ostatní investoři", "Nic nedělat a držet své pozice", "Dokoupit více za nižší ceny"]
+        },
+        {
+          "text": "Jak často kontrolujete výkonnost svých investic?",
+          "options": ["Několikrát denně", "Jednou týdně", "Jednou měsíčně", "Jednou za čtvrt roku nebo méně"]
+        },
+        {
+          "text": "Při výběru investice je pro vás nejdůležitější:",
+          "options": ["Bezpečnost a jistota výnosu", "Doporučení od důvěryhodných zdrojů", "Vysoký potenciál růstu", "Vlastní analýza a přesvědčení"]
+        },
+        {
+          "text": "Když se objeví nový investiční trend (např. kryptoměny, ESG fondy), vy:",
+          "options": ["Okamžitě se zapojíte, abyste nepřišli o příležitost", "Počkáte a sledujete, jak si vedou ostatní", "Důkladně to prozkoumáte a pak se rozhodnete", "Vyhýbáte se novým trendům"]
+        },
+        {
+          "text": "Vaše portfolio je obvykle:",
+          "options": ["Velmi diverzifikované napříč různými třídami aktiv", "Zaměřené na několik vybraných investic, kterým důvěřujete", "Podobné portfoliím úspěšných investorů", "Složené převážně z růstových akcií a spekulativních investic"]
+        },
+        {
+          "text": "Když čtete finanční zpravodajství:",
+          "options": ["Důvěřujete analýzám expertů a následujete jejich doporučení", "Často zpochybňujete uvedené informace a spoléháte na vlastní úsudek", "Hledáte především informace o bezpečných investicích", "Zaměřujete se na tipy o rychle rostoucích akciích"]
+        },
+        {
+          "text": "Při investičním rozhodnutí nejvíce ovlivňuje:",
+          "options": ["Strach ze ztráty peněz", "Touha po vysokých výnosech", "Názory lidí, kterých si vážíte", "Důvěra ve vlastní analýzu"]
+        },
+        {
+          "text": "Když vaše investice klesá v hodnotě několik týdnů po nákupu:",
+          "options": ["Okamžitě prodáte, abyste zabránili dalším ztrátám", "Konzultujete s jinými investory, co by dělali oni", "Držíte pozici, protože jste přesvědčeni o své analýze", "Dokupujete více, protože vidíte příležitost"]
+        },
+        {
+          "text": "Vaším dlouhodobým investičním cílem je:",
+          "options": ["Zachovat kupní sílu peněz s minimálním rizikem", "Dosáhnout nadprůměrných výnosů", "Investovat podobně jako úspěšní investoři", "Vybudovat stabilní portfolio pro důchod"]
+        }
+      ]
+    },
+    "cryptoQuiz": {
+      "title": "Krypto Odpovědnost Quiz",
+      "description": "Zjistěte, jak zodpovědně investujete do kryptoměn",
+      "questionsHeader": "Otázka",
+      "congratulations": "Gratulujeme!",
+      "completedText": "Dokončil jsi krypto kvíz s úspěšností",
+      "scoreText": "Skóre",
+      "retryButton": "Zkusit znovu",
+      "homeButton": "Zpět na domovskou stránku",
+      "nextButton": "Další otázka →",
+      "finishButton": "Dokončit kvíz",
+      "questions": [
+        {
+          "text": "1.1. Proč nejčastěji investuješ do krypta?",
+          "options": [
+            {
+              "text": "Věřím v dlouhodobou technologii",
+              "feedback": "✅ Výborně! Drž se strategie buy & hold - nejlépe pouze u Bitcoinu. Kupuj jen tolik, kolik si můžeš dovolit držet roky bez nutnosti prodat. Diverzifikuj a pravidelně přikupuj menší částky."
+            },
+            {
+              "text": "Chci rychle vydělat",
+              "feedback": "⚠️ Kryptoměny mohou nabídnout krátkodobé zisky, ale dlouhodobě je lepší brát je jako maraton, ne sprint. Pokud tě láká spekulace, vyhraď si na to jen malou část portfolia (např. 5–10 %) a zbytek investuj dlouhodobě. Tím snížíš riziko velké ztráty."
+            },
+            {
+              "text": "Nechci přijít o příležitost (FOMO)",
+              "feedback": "❌ Největší past! Místo impulzivních nákupů si nastav pravidelný plán investic (např. měsíční nákup za pevnou částku – tzv. DCA). To ti pomůže zbavit se stresu z načasování a ochránit tě před přehnanými nákupy na vrcholu."
+            }
+          ]
+        },
+        {
+          "text": "1.2. Jak velkou část svých úspor máš v kryptu?",
+          "options": [
+            {
+              "text": "<10 %",
+              "feedback": "✅ To je obecně považováno za rozumnou a bezpečnější alokaci. Kryptoměny jsou vysoce rizikové aktivum, takže držet je jako menší část portfolia dává smysl. Riziko velké ztráty neohrozí tvoji finanční stabilitu."
+            },
+            {
+              "text": "10–50 %",
+              "feedback": "⚠️ To už je výrazně vyšší riziko. Pokud trh padne o 70–80 %, může to citelně zasáhnout tvé úspory. Je důležité mít jasnou strategii (např. dlouhodobý horizont, diverzifikace i mimo krypto, pravidelné přikupování) a počítat s tím, že portfolio může silně kolísat."
+            },
+            {
+              "text": ">50 %",
+              "feedback": "❌ Extrémně riziková strategie, kterou BIS a většina expertů považuje za hazardní. Hodí se jen pro lidi, kteří si mohou dovolit potenciálně přijít o značnou část majetku. Pokud tě k tomu vedou emoce (FOMO, chamtivost), je to varovný signál."
+            }
+          ]
+        },
+        {
+          "text": "1.3. Kde máš uloženo své krypto?",
+          "options": [
+            {
+              "text": "Hardwarová peněženka / cold storage",
+              "feedback": "✅ Nejbezpečnější varianta pro dlouhodobé držení. Privátní klíče vlastníš ty, nikdo jiný. Riziko hacku burzy je nulové, ale je potřeba pečlivě chránit seed phrase (nikdy ji neukládat online)."
+            },
+            {
+              "text": "Na burze s 2FA",
+              "feedback": "⚠️ Přijatelná varianta pro krátkodobé obchodování. Dvoufaktorová autentizace výrazně zvyšuje bezpečnost, ale stále platí, že klíče drží burza, ne ty ('not your keys, not your coins'). Pokud burza zkrachuje nebo bude hacknuta, můžeš přijít o prostředky.\n\n👉 Doporučení: 'Pro obchod burza, pro držení peněženka'."
+            },
+            {
+              "text": "Na burze bez zabezpečení",
+              "feedback": "❌ Nejhorší varianta! Otevírá dveře hackerům i podvodníkům, ztráta účtu je jen otázkou času. Kdo takto uchovává větší částku, vystavuje se zbytečně obrovskému riziku.\n\n👉 Doporučení: 'Pro obchod burza, pro držení peněženka'."
+            }
+          ]
+        },
+        {
+          "text": "1.4. Kolik času denně trávíš sledováním grafů?",
+          "options": [
+            {
+              "text": "<5 minut",
+              "feedback": "✅ Zdravý přístup. Sleduješ trh jen orientačně, nenecháváš se vtáhnout do každodenní volatility. Vhodné pro dlouhodobé investory."
+            },
+            {
+              "text": "10–60 minut",
+              "feedback": "⚠️ Střední riziko. Už věnuješ kryptu dost pozornosti, takže tě mohou ovlivňovat krátkodobé výkyvy a stáhnout tě k aktivnímu tradingu. Je potřeba mít pevný plán, aby ses nenechal strhnout k impulzivním nákupům nebo prodejům."
+            },
+            {
+              "text": ">1 hodin",
+              "feedback": "❌ Varovný signál! Většina dlouhodobých investorů zbytečně ztrácí čas i energii – a výsledek bývá horší než u klidného přístupu s jasnou strategií. Pokud se věnuješ tradingu, i zde je potřeba mít dny, kdy trhy vůbec neřešíš a nastavit si zdravou psychohygienu."
+            }
+          ]
+        },
+        {
+          "text": "1.5. Když jsi pod stresem, saháš po kryptu (trading, kontrola portfolia)?",
+          "options": [
+            {
+              "text": "Ne, zvládám to jinak",
+              "feedback": "✅ Ideální přístup. Stres nepřetváříš do impulsivních nákupů/prodejů. Zdravá strategie snižuje riziko ztrát způsobených emocemi."
+            },
+            {
+              "text": "Někdy",
+              "feedback": "⚠️ Střední riziko. Občasné impulzivní chování může snižovat výnosy, ale pokud si uvědomuješ situaci a máš plán, lze riziko minimalizovat."
+            },
+            {
+              "text": "Ano, často",
+              "feedback": "❌ Varovný signál! Používání krypta jako 'úlevy od stresu' vede k vysokému riziku ztrát a psychického vyhoření. BIS i studie retail investorů ukazují, že právě emočně poháněné investice vedou k většině ztrát."
+            }
+          ]
+        },
+        {
+          "text": "1.6. Ovlivňuje nálada trhu tvoji osobní náladu?",
+          "options": [
+            {
+              "text": "Ne, nálada je stabilní",
+              "feedback": "✅ Skvělý základ pro dlouhodobé investování. Emoce máš pod kontrolou, neprodáváš ani nenakupuješ impulzivně. Umíš udržet odstup mezi svým životem a trhem."
+            },
+            {
+              "text": "Trochu – dobrý den, když krypto roste",
+              "feedback": "⚠️ Běžná reakce, ale už tu hrozí, že se radost/negativní nálada promítne i do rozhodnutí. Je důležité vědomě si připomínat, že volatilita je normální a nesmí řídit tvůj život."
+            },
+            {
+              "text": "Hodně – moje emoce kopírují trh",
+              "feedback": "❌ Nebezpečný vzorec! Pokud tě trh emocionálně ovládá, je vysoké riziko FOMO a panických prodejů. To je přesně důvod, proč podle BIS většina investorů prodělává – nechají se vláčet náladou davu místo plánu."
+            }
+          ]
+        },
+        {
+          "text": "1.7. Jak se cítíš, když se dostaneš do ztráty?",
+          "options": [
+            {
+              "text": "Beru to jako součást investování",
+              "feedback": "✅ Nejzdravější přístup. Víš, že ztráty jsou přirozené a do strategie započítané. Menší emoční reakce = menší riziko impulzivních rozhodnutí."
+            },
+            {
+              "text": "Dlouho nad tím přemýšlím, ale časem pustím",
+              "feedback": "⚠️ Střední riziko. Emoce hrají roli, ale nakonec se s nimi vyrovnáš. Je dobré mít nastavený plán, aby ses při poklesu necítil ztracený."
+            },
+            {
+              "text": "Mám výčitky, pocit selhání, hněv",
+              "feedback": "❌ Varovný signál! Pokud tě ztráta paralyzuje, je vysoké riziko panických prodejů nebo 'honění' ztrát riskantními obchody. To je přesně cesta, kterou BIS identifikuje jako důvod, proč většina retailu prodělává."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
